@@ -10,7 +10,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: jZRgq5SE8kE7
   litespeed:
-    image: litespeedtech/openlitespeed:1.6.13-lsphp74
+    image: litespeedtech/openlitespeed:1.6.15-lsphp74
     env_file:
       - .env
     volumes:
